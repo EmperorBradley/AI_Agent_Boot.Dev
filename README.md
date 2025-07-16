@@ -3,9 +3,10 @@
 Following the instructions of the Boot.Dev website this thing was made.
 
 ## TODO:
-- [ ] Fix the warning: > Warning: there are non-text parts in the response: ['function_call'],returning concatenated text result from text parts,check out the non text parts for full response from model.
+- [ ] Fix the warning: 
+> Warning: there are non-text parts in the response: ['function_call'],returning concatenated text result from text parts,check out the non text parts for full response from model.
 - [ ] Before getting it to properly work, the AI was showing its train of thought. E.g.
-
+```
 uv run main.py "how does the calculator render results to the console?"
 Called function: get_files_info({})
 
@@ -46,8 +47,9 @@ Okay, `pkg` is indeed a directory. I apologize for the previous errors. Let's li
 Called function: get_file_content({'file_path': 'pkg/render.py', 'working_directory': './calculator'})
 
 Okay, the `pkg` directory contains `render.py`, `calculator.py`, `morelorem.txt`, and `__pycache__`. Since `main.py` imports `render` from `pkg.render`, I need to read `render.py` to understand how the rendering happens.
+```
 
-~~~ Stops here since it just stops and I couldn't figure out why ~~~
+Stops here since it just stops and I couldn't figure out why
 
 I truely like how the AI gets confused, and that I can see it. Makes it feel real and goofy.
 I want to properly implement it one day. 
