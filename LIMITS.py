@@ -1,0 +1,3 @@
+READ_LIMIT = 10000
+AI_ITERATIONS = 25
+WORKING_DIR = "./calculator"
